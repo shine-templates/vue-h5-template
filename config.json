@@ -1,0 +1,55 @@
+[
+  {
+    "type": "confirm",
+    "name": "private",
+    "message": "ths resgistery is private?"
+  },
+  {
+    "type": "input",
+    "name": "author",
+    "message": "author?"
+  },
+  {
+    "type": "input",
+    "name": "description",
+    "message": "description?"
+  },
+  {
+    "type": "list",
+    "name": "license",
+    "message": "please select license",
+    "default": "MIT",
+    "choices": [
+      {
+        "name": "GPL",
+        "value": "GPL",
+        "long": "General Public License"
+      },
+      {
+        "name": "BSD",
+        "value": "BSD",
+        "long": "Berkeley Software Distribution"
+      },
+      {
+        "name": "MIT",
+        "value": "MIT",
+        "long": "Massachusetts Institute of Technology"
+      },
+      {
+        "name": "Apache",
+        "value": "Apache",
+        "long": "Apache License Version 2.0"
+      },
+      {
+        "name": "LGPL",
+        "value": "LGPL",
+        "long": "Lesser General Public License"
+      },
+      {
+        "name": "MPL",
+        "value": "MPL",
+        "long": "Mozilla Public License"
+      }
+    ]
+  }
+]

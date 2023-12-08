@@ -1,6 +1,6 @@
 {
-  "name": "vue-h5-template",
-  "private": true,
+  "name": "<%=name%>",
+  "private": "<%=private%>",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,6 +10,9 @@
     "build:prod": "vite build --mode production",
     "preview": "vite preview"
   },
+  "autor": "<%=author%>",
+  "description": "<%=description%>",
+  "license": "<%=license%>",
   "dependencies": {
     "@vitejs/plugin-legacy": "^4.0.2",
     "@volar-plugins/vetur": "latest",
